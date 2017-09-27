@@ -17,7 +17,7 @@ td{
     padding:10px;
 }
 table{
-    width:80%;
+    width:70%;
 
 }
 
