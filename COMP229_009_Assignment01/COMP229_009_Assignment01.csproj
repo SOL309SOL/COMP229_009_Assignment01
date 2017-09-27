@@ -144,6 +144,8 @@
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="img\bg1.jpg" />
+    <Content Include="img\bg2.jpg" />
+    <Content Include="img\bg4.jpg" />
     <Content Include="img\facebook_icon.png" />
     <Content Include="img\GADOS-2014_Infographic.jpg" />
     <Content Include="img\instagram_icon.png" />

@@ -3,33 +3,56 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <style>
         td{
-            padding:10px;
+            padding:20px;
         }
 
     </style>
     <div class="jumbotron">
         <table>
+           
             <tr>
-                <td>
-                    <asp:Image ID="Image1" runat="server" ImageUrl="~/img/bg1.jpg" Width="300px" />
+                <td class="container">
+                    <div class="bg">
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/img/bg1.jpg" Width="300px" />
+                        
+                    </div>
+                    <div class="mid"><div class="line"><strong>RESUME PAGE</strong></div></div>
+                    <div class="head">
+                        <asp:Image ID="Image5" runat="server" ImageUrl="~/img/bg2.jpg" Width="300px" Height="530px" />
+
+                    </div>
+                    
+                    
                 </td>
-                <td>
-                    <asp:Image ID="Image2" runat="server" ImageUrl="~/img/bg1.jpg" Width="300px"/>
-                </td>
-                <td>
-                    <asp:Image ID="Image3" runat="server" ImageUrl="~/img/bg1.jpg" Width="300px"/>
+                <td class="container">
+                    <div class="bg">
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/img/bg1.jpg" Width="300px" />
+                        
+                    </div>
+                    <div class="mid"><strong>CONTACT PAGE</strong></div>
+                    <div class="head">
+                        <asp:Image ID="Image3" runat="server" ImageUrl="~/img/bg2.jpg" Width="300px" Height="530px" />
+
+                    </div>
+                    
+                    
+                </td><td class="container">
+                    <div class="bg">
+                        <asp:Image ID="Image4" runat="server" ImageUrl="~/img/bg1.jpg" Width="300px" />
+                        
+                    </div>
+                    <div class="mid"><strong>HELLO</strong></div>
+                    <div class="head">
+                        <asp:Image ID="Image6" runat="server" ImageUrl="~/img/bg4.jpg" Width="300px" Height="530px" />
+
+                    </div>
+                    
+                    
                 </td>
             </tr>
-            <tr>
-                <td><h2>Resume Page</h2></br>
-                    <a class="btn btn-default" href="/About">Learn More</a></td>
-                <td><h2>Contact Page</h2><br />
-                    <a class="btn btn-default" href="/Contact">Learn More</a>
-                </td>
-                <td><h2>Contact Page</h2><br />
-                    <a class="btn btn-default" href="/Contact">Learn More</a>
-                </td>
-            </tr>
+          
+               
+              
         </table>
       
        

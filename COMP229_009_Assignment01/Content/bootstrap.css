@@ -8062,3 +8062,79 @@ input[type="checkbox"], .checkbox input[type="checkbox"], .checkbox-inline input
 .carousel-caption h1, .carousel-caption h2, .carousel-caption h3, .carousel-caption h4, .carousel-caption h5, .carousel-caption h6 {
     color: inherit
 }
+
+/*Add my css*/
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+
+.subTable {
+    width: 80%;
+}
+
+.subTable td{
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.myBtn {
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 330px;
+}
+.myBtn:hover {
+        background-color: lightgrey;
+        text-decoration: none
+}
+
+blockquote {
+    border-left: none;
+    font-size: 1em;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+/*CG*/
+
+.container {
+    position: relative;
+}
+
+
+
+.bg {
+    transition: top .5s ease, opacity .35s ease;
+    position: absolute;
+    width: 92%;
+    height: 95%;
+    opacity: 1;
+    z-index:10;
+}
+.mid {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin-left: 50px;
+    margin-top:50px;
+    opacity:1;
+    font-size:40px;
+}
+.line{
+    border:1px solid white;
+
+}
+.bg:hover {
+    opacity: 0.3;
+}
+
+#Image1 {
+    transition: top .5s ease, opacity .35s ease;
+}
