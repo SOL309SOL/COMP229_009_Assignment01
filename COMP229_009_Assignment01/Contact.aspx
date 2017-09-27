@@ -13,7 +13,7 @@
 
 
 table{
-    width:70%;
+    width:80%;
 }
 td{
     border:solid black 1px;
@@ -61,7 +61,7 @@ td{
 <img src="../img/twitter_icon.png" width="25px">
 <img src="../img/instagram_icon.png" width="20px"></p>
                     <strong>Email:</strong><br> <a href="mailto: ylee147@my.centennialcollege.ca?Subject=Hello%20again" target="_top">ylee147@my.centennialcollege.ca</a><br>
-                    <strong>Address:</strong><br> Centennial College<br>
+                    <strong>Address:</strong><br>941 Progress Ave, <br />Toronto, ON M1K 5E9<br>
                     <strong>Phone Number:</strong><br>
                         <a href="tel:+1-800-555-5555">Call 1-800-555-5555</a><br>
                 

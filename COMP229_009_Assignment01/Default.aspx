@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <style>
         td{
-            padding:20px;
+            padding:10px;
         }
 
     </style>
