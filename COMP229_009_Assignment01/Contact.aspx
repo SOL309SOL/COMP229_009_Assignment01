@@ -13,7 +13,7 @@
 
 
 table{
-    width:80%;
+    width:70%;
 }
 td{
     border:solid black 1px;
