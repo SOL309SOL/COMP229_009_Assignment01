@@ -9,7 +9,7 @@
         <table class ="subTable">
             <tr>
                 <td colspan="3">
-                <strong>Name:</strong><br/>
+                <strong>Test:</strong><br/>
                 <input name="FName" type="text" id="FName"/><br>
                 
                 <strong>Phone:</strong><br/>
