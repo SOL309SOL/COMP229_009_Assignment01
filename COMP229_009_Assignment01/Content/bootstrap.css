@@ -8064,6 +8064,8 @@ input[type="checkbox"], .checkbox input[type="checkbox"], .checkbox-inline input
 }
 
 /*Add my css*/
+
+/*Css for overall*/
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -8108,33 +8110,34 @@ blockquote {
 }
 
 
+/*Css for default page*/
 
 .bg {
-    transition: top .5s ease, opacity .35s ease;
+    transition: opacity .60s ease;
     position: absolute;
     width: 92%;
     height: 95%;
     opacity: 1;
     z-index:10;
-}
-.mid {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    color: white;
-    margin-left: 50px;
-    margin-top:50px;
-    opacity:1;
-    font-size:40px;
-}
-.line{
-    border:1px solid white;
-
-}
+ }
 .bg:hover {
     opacity: 0.3;
 }
 
-#Image1 {
-    transition: top .5s ease, opacity .35s ease;
+.mid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    opacity: 1;
+    font-size: 40px;
+}
+.line{
+    border:1px solid white;
+    width:76%;
+    height:87%;
+    margin-left:17px;
+    margin-top:17px;
+    padding-left:25px;
+    padding-top:25px;
 }
