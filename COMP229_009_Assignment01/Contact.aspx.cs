@@ -13,5 +13,11 @@ namespace COMP229_009_Assignment01
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            ScriptManager.RegisterStartupScript(this, typeof(Page), "Alert",
+"<script>alert('" + "Successfully added" + "');</script>", false);
+        }
     }
 }
